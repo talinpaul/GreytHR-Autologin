@@ -25,7 +25,7 @@ Before setting up GreytHR-Autologin, ensure you have the following installed:
     $ cd GreytHR-Autologin
     ```
 1. **Run the Installation Script:**
-    The install.ps1 script automates the setup process, including creating a virtual environment and installing dependencies.
+    The `install.ps1` script automates the setup process, including creating a virtual environment and installing dependencies.
     ```
     $ .\install.ps1
     ```
@@ -34,7 +34,7 @@ Before setting up GreytHR-Autologin, ensure you have the following installed:
     * Ensures the venv module is available.​
     * Creates and activates a virtual environment.​
     * Upgrades pip to the latest version.​
-    * Installs required dependencies from requirements.txt.​
+    * Installs required dependencies from `requirements.txt`.​
 
 1. **Configure Environment Variables:**
     * Create a `.env` file in the project root directory.​ Use the `.env.sample` file as a reference.
@@ -46,7 +46,7 @@ Before setting up GreytHR-Autologin, ensure you have the following installed:
     _​Ensure this file is added to `.gitignore` to protect sensitive information._
 
 1. **Run the Script:**
-    You can execute the automation script using the provided run.ps1 script, which handles activating the virtual environment and running the main Python script.
+    You can execute the automation script using the provided `run.ps1` script, which handles activating the virtual environment and running the main Python script.
     ```bash
     $ .\run.ps1
     ```
@@ -60,7 +60,7 @@ Before setting up GreytHR-Autologin, ensure you have the following installed:
     To run the script automatically at specified times
 
     1. Create a Batch File:
-        * Create a startup-script.cmd file with the following content:​
+        * Create a `startup-script.cmd` file with the following content:​
             ```bash
             $ @echo off
             $ cd /d "C:\path\to\GreytHR-Autologin"
