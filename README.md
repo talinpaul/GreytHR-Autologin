@@ -37,7 +37,7 @@ Before setting up GreytHR-Autologin, ensure you have the following installed:
     * Installs required dependencies from requirements.txt.​
 
 1. **Configure Environment Variables:**
-    * Create a .env file in the project root directory.​
+    * Create a `.env` file in the project root directory.​ Use the `.env.sample` file as a reference.
     * Add your GreytHR credentials:​
     ```ini
     USERNAME=your_username
